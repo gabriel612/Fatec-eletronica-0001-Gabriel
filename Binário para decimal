@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int x;
+x = 15;
+    printf("numero decimal: %d\t",x);
+    printf("numero octal: %o\t",x);
+    printf("numero hexadecimal: %x\n",x);
+return 0;
+}
