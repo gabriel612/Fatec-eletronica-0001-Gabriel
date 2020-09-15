@@ -1,0 +1,10 @@
+// inclusão de bibliotecas
+// declaração do pre-processador
+#include <stdio.h>
+// inicio da execução do programa 
+int main(void) {
+  // sequencia de execução 
+  printf("Hello World\n");
+  return 0;
+  //fim da sequencia
+}
