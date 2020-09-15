@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+int x;
+    printf("Entre com algum valor\t");
+    scanf("%i",&x);
+    printf("numero octal: %o\t",x);
+    printf("numero hexadecimal: %x\n",x);
+return 0;
+}
