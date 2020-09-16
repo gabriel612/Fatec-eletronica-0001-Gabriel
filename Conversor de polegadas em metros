@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int polegadas;
+int metros;
+
+int main() {
+    printf("digite o valor em polegadas\n");
+    scanf("%d",&polegadas);
+    metros=polegadas/2.54;
+    printf("valor em metros:%d",metros);  
+return 0;  
+}
