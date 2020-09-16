@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+float Resistor1,Resistor2,Préresfinal;
+float restotal;
+
+int main()
+{
+    printf("digite o valor do primeiro resistor\n");
+    scanf("%f",&Resistor1);
+    printf("digite o valor da segundo resistor\n");
+    scanf("%f",&Resistor2);
+    Préresfinal=1/Resistor1+1/Resistor2;
+    restotal=1/Préresfinal;
+    printf("valor da Resistência:%f",restotal);
+ return 0;
+}
