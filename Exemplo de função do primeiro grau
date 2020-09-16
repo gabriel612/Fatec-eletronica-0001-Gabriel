@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+float e_ax,e_b,e_x;
+
+int main()
+{
+    printf("digite o valor de a\n");
+    scanf("%f",&e_ax);
+
+if (e_ax!=0)
+{
+    printf("digite o valor de b\n"); 
+    scanf("%f",&e_b);
+     e_x=-e_b/e_ax;
+    printf("valor de x %f",e_x);
+}  
+else 
+{
+    printf("a variavel A precisa ser diferente de 0\n");
+    return main();
+}
+return 0;
+}
