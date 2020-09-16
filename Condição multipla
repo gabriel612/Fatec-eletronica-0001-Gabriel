@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int nro;
+
+int main()
+{
+    printf("digite um numero\n");
+    scanf("%i",&nro);
+if (nro<10)
+{
+    printf("%i numero menor que 10\n",nro);
+}  
+else if (nro>50)
+{
+    printf("numero maior que 50\n");  
+}
+else
+{
+    printf("numero maior que 10\n");  
+}
+return main();
+}
