@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+float Lado;
+float AreaT;
+
+int main()
+{
+    printf("digite o valor do lado \n");
+    scanf("%f",&Lado);
+    AreaT=pow(Lado,2);
+    printf("valor em Km:%f",AreaT);
+return 0;       
+}
