@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+float Vms;
+float Vkm;
+
+int main()
+{
+    printf("digite o valor em m/s\n");
+    scanf("%f",&Vms);
+    Vkm=Vms*3.6;
+    printf("valor em Km:%f",Vkm);
+return 0;       
+}
