@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+float Tensão;
+float Corrente;
+float Resistência;
+
+int main()
+{
+    printf("digite o valor da tensão\n");
+    scanf("%f",&Tensão);
+    printf("digite o valor da corrente\n");
+    scanf("%f",&Corrente);
+    Resistência=Tensão/Corrente;
+    printf("valor da Resistência:%2.f",Resistência);
+ return 0;
+}
