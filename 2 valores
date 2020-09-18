@@ -13,7 +13,11 @@ if (valor1>valor2)
 {
     printf("%i",valor1);
 
-}        
+}
+else if (valor1==valor2||valor2==valor1)
+{
+    printf("valores iguais não podem ser inseridos");         
+}      
 if (valor2>valor1)
 {
     printf("%i",valor2);
