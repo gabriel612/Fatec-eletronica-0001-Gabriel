@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <math.h>
+#include <time.h>
+
+int a,b,c;
+void delay(double secs) {
+    double end = time(0) + secs;
+    while (time(0) < end);
+}
+
+int main()
+{
+    printf("digite os valores dos lados dos catetos ou da hipotenusa, e também digite 1 após digitar os valores que obteve\n");
+    delay(0.1);
+    printf("seno\n");
+    delay(0.1);
+    printf("cos\n");
+    delay(0.1);
+    printf("TG\n");
+    scanf("%i %i ",&b,&c);
+    a=b/c;
+
+if (b/c>90)
+{
+    printf("triangulo obtusângulo, de angulo igual a: %i",a);
+}
+
+else if (b/c<90)
+{
+    printf("triangulo actutângulo, de angulo igual a: %i",a);
+}
+
+else 
+{
+    printf("triangulo retangulo, de angulo igual a: %i",a);
+}
+return 0;
+}
