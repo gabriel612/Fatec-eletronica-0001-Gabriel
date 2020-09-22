@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <time.h>
+#include <math.h>
+
+void delay(double secs)
+{
+double end = time(0)+secs;
+while (time(0)<end);
+}
+int nro1;
+
+int main ()
+{
+    printf("digite o numero inteiro que deseja\n");
+    scanf("%i",&nro1);
+
+if (nro1/10)
+{
+    printf("este numero é divisivel por 10, 5 e 2\n"); 
+    delay(0.2); 
+}
+
+else if (nro1/5)
+{
+    printf("este numero é divisivel por 5 e por 2\n");
+    delay(0.2);   
+}
+
+else if (nro1/2)
+{
+    printf("este numero é divisivel por 2\n");
+    delay(0.2);   
+}
+else
+{
+    printf("este numero não é divisivel por nenhum deles\n");
+    delay(0.2);   
+}
+return 0;
+}
