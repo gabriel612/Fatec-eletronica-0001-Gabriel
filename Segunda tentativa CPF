@@ -1,0 +1,58 @@
+#include <stdio.h>/*    inclusão das bibliotecas       */
+#include <stdlib.h>     
+
+float x,y,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10;
+int main()
+{
+float cpf_1();
+    cpf_1();
+
+float cpf_2();
+    cpf_2();
+    printf("o seu CPF inteiro é: %1.f %1.f %1.f %1.f %1.f %1.f %1.f %1.f %1.f-%1.f%1.f ",d2,d3,d4,d5,d6,d7,d8,d9,d10,x,y);
+
+return 0;
+}
+// funções 
+float cpf_1()
+{
+int res,res1;  
+    printf("digite o CPF\n");
+    // erro: esta dando para escrever apenas um numero por linha 
+    scanf("%f\t",&d1);
+    scanf("%f\t",&d2);
+    scanf("%f\t",&d3);
+    scanf("%f\t",&d4);
+    scanf("%f\t",&d5);
+    scanf("%f\t",&d6);
+    scanf("%f\t",&d7);
+    scanf("%f\f",&d8);
+    scanf("%f\t",&d9);
+    res=(d1*10)+(d2*9)+(d3*8)+(d4*7)+(d5*6)+(d6*5)+(d7*4)+(d8*3)+(d9*2);
+    res1=res%11;
+    x=11-res1;
+    printf("O primeiro digito eh: %1.f\n",x);
+return x;
+}
+
+float cpf_2()
+{
+int res,res1;  
+    float cpf_1();
+    // erro: esta dando para escrever apenas um numero por linha 
+    printf("digite novamente o cpf agora com o digito que vc obteve\n");
+    scanf("%f\t",&d1);
+    scanf("%f\t",&d2);
+    scanf("%f\t",&d3);
+    scanf("%f\t",&d4);
+    scanf("%f\t",&d5);
+    scanf("%f\t",&d6);
+    scanf("%f\t",&d7);
+    scanf("%f\f",&d8);
+    scanf("%f\t",&d9);
+    scanf("%f\t",&d10);
+    res=(d1*11)+(d2*10)+(d3*9)+(d4*8)+(d5*7)+(d6*6)+(d7*5)+(d8*4)+(d9*3)+(d10*2);
+    printf("o segundo digito é: %1.f",y);
+  
+return y;
+}
