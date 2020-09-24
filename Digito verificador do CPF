@@ -20,7 +20,7 @@ return 0;
 float cpf_1()
 {
 int res,res1;  
-    printf("digite o CPF\n");
+    printf("digite o CPF dando espaço entre os numeros.\n");
     // erro: esta dando para escrever apenas um numero por linha 
     scanf("%f\t",&d1);
     scanf("%f\t",&d2);
@@ -50,7 +50,7 @@ float cpf_2()
 int res,res1;  
     float cpf_1();
     // erro: esta dando para escrever apenas um numero por linha 
-    printf("digite novamente o cpf agora com o digito que vc obteve\n");
+    printf("digite novamente o cpf agora com o digito que vc obteve, também dando espaço entre os numeros\n");
     scanf("%f\t",&d1);
     scanf("%f\t",&d2);
     scanf("%f\t",&d3);
