@@ -1,3 +1,6 @@
+/* Autor: Gabriel Araujo Fabricio 
+   Data: 24/09/20 hora:10:21    */
+
 #include <stdio.h>/*    inclusão das bibliotecas       */
 #include <stdlib.h>     
 
@@ -31,7 +34,14 @@ int res,res1;
     res=(d1*10)+(d2*9)+(d3*8)+(d4*7)+(d5*6)+(d6*5)+(d7*4)+(d8*3)+(d9*2);
     res1=res%11;
     x=11-res1;
+if (x<2)
+{
+    printf("o primeiro digito eh: 0\n");
+}
+else
+{
     printf("O primeiro digito eh: %1.f\n",x);
+}
 return x;
 }
 
@@ -52,7 +62,13 @@ int res,res1;
     scanf("%f\t",&d9);
     scanf("%f\t",&d10);
     res=(d1*11)+(d2*10)+(d3*9)+(d4*8)+(d5*7)+(d6*6)+(d7*5)+(d8*4)+(d9*3)+(d10*2);
-    printf("o segundo digito é: %1.f",y);
-  
+if (y<2)
+{
+printf("o segundo digito é: 0");  
+}
+else
+{
+    printf("o segundo digito é: %1.f\n",y);
+}  
 return y;
 }
